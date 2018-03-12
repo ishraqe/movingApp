@@ -38,36 +38,48 @@ export const step2Style = StyleSheet.create({
     truckWrapper  : {
         flex :2,
         height :150,
-        width: '100%',
         flexDirection  :'row',
         alignItems: 'center',
         marginTop :10,
         justifyContent: 'space-between',
+       
     },
     truckImage1  : {
-        height: 48,
-        width: 48,
+        height: 64,
+        width: 64,
         marginLeft :20,
         marginRight :20
     },
     truckImage2  : {
-        height: 60,
-        width: 70,
+        height: 64,
+        width: 64,
         marginLeft :20,
         marginRight :20
     },
     truckImage3  : {
-        height: 70,
-        width: 90,
+        height: 64,
+        width: 64,
         marginLeft :20,
         marginRight :20,
         marginBottom :20
     },
     info : { 
        flex :1,
-       alignItems :'center'
+       justifyContent : 'center',
+       alignItems: 'flex-start'
     },
     checkbox : {
         margin: 10,
+        borderColor : colors.themeColor,
+        
+    }
+});
+
+export const step3Style= StyleSheet.create({
+    buttonStyle : {
+        height: 45,
+        width: '70%', 
+        marginTop: 10, 
+        marginBottom: 30
     }
 });
