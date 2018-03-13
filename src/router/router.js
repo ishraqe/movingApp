@@ -8,7 +8,7 @@ import Welcome from '../screens/Welcome';
 
 import Quote from '../screens/Quotes';
 import Invoice from '../screens/Invoice';
-
+import UpdateInfo from '../screens/UpdateInfo';
 
 class RouterComponent extends Component {
     render () {
@@ -40,6 +40,10 @@ class RouterComponent extends Component {
                         <Scene 
                             key='invoiceScreen'
                             component={Invoice}
+                        />
+                        <Scene 
+                            key='updateInfoScreen'
+                            component={UpdateInfo}
                         />
                     </Stack>
                 </Stack>

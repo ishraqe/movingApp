@@ -28,8 +28,8 @@ class Step2 extends Component {
                                 />
                             </View>
                             <View style={step2Style.info}>
-                                <Text style={colors.black}>Small Truck</Text>
-                                <Text style={colors.greyColor}>storage: 2 bedrooms</Text>
+                                <Text style={{color: colors.black}}>Small Truck</Text>
+                                <Text style={{color: colors.greyColor}}>storage: 2 bedrooms</Text>
                             </View>
                             <CheckBox 
                                 style={step2Style.checkbox}
@@ -43,8 +43,8 @@ class Step2 extends Component {
                                 />
                             </View>
                             <View style={step2Style.info}>
-                                <Text style={colors.black}>Medium Truck</Text>
-                                <Text style={colors.greyColor}>storage: 3-4 bedrooms</Text>
+                                <Text style={{color: colors.black}}>Medium Truck</Text>
+                                <Text style={{color: colors.greyColor}}>storage: 3-4 bedrooms</Text>
                             </View>
                             <CheckBox 
                                 style={step2Style.checkbox}
@@ -58,8 +58,8 @@ class Step2 extends Component {
                                 />
                             </View>
                             <View style={step2Style.info}>
-                                <Text style={colors.black}>Large Truck</Text>
-                                <Text style={colors.greyColor}>storage: 4+ bedrooms</Text>
+                                <Text style={{color: colors.black}}>Large Truck</Text>
+                                <Text style={{color: colors.greyColor}}>storage: 4+ bedrooms</Text>
                             </View>
                             <CheckBox 
                                 style={step2Style.checkbox}

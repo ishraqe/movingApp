@@ -36,7 +36,7 @@ class Step extends Component {
         return (
             <View style={{flex:1, backgroundColor: '#fff'}} >
                 <Carousel
-                    layout={'default'} layoutCardOffset={`0`}
+                    layout={'default'} layoutCardOffset={0}
                     ref={(c) => { this._carousel = c; }}
                     data={this.state.entries}
                     renderItem={this._renderItem}
