@@ -29,7 +29,8 @@ class WelcomeScreen extends  Component {
                                     />
                                     <Text style={styles.textStyle}>Instant Quote</Text>
                             </TouchableOpacity>
-                            <TouchableOpacity style={[styles.optionsWrapper,styles.invoiceBackColor]}
+                            <TouchableOpacity 
+                                style={[styles.optionsWrapper,styles.invoiceBackColor]}
                                 onPress={() => Actions.invoiceScreen()}
                             >
                                     <Ionicon
@@ -41,7 +42,10 @@ class WelcomeScreen extends  Component {
                             </TouchableOpacity>
                         </View>
                         <View style={styles.options}>
-                            <TouchableOpacity style={[styles.optionsWrapper,styles.optionBackGroundColor]}>
+                            <TouchableOpacity 
+                                style={[styles.optionsWrapper,styles.optionBackGroundColor]}
+                                onPress= {()=>  Actions.trackJobScreen()}
+                            >
                                     <Ionicon
                                         name={'ios-car'}
                                         size={ICONSIZE}

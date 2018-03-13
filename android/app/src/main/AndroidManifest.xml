@@ -16,6 +16,9 @@
       android:label="@string/app_name"
       android:icon="@mipmap/ic_launcher"
       android:theme="@style/AppTheme">
+      <meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value="AIzaSyAQp12SR2R_6taPJ8O3vRp9BEwbV083ymU"/>
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"

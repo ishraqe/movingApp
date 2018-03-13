@@ -34,6 +34,7 @@ class Auth extends Component {
                         <CustomButton
                             style={styles.buttonStyle}
                             textStyle={styles.alternateButtonText}
+                            onPress={()=> Actions.signup_screen()}
                         >
                             Sign Up
                         </CustomButton>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, TextInput} from 'react-native';
+import {View, Text, TextInput, KeyboardAvoidingView} from 'react-native';
 import {CustomButton} from '../component/common';
 import LinearGradient from 'react-native-linear-gradient';
 import colors from '../styles/colors';
@@ -14,7 +14,7 @@ class Login extends Component {
                     <Text style={styles.title}>Login</Text>
                     <Text style={styles.subTitle}>Please login to view job status and track</Text>
                 </View>
-               <View style={styles.inputContainer}>
+               <View style={[styles.inputContainer, {marginTop: 20, marginBottom: 20}]}>
                    <TextInput
                         style={styles.inputStyle}
                         placeholder='E-mail address'
