@@ -26,7 +26,7 @@ class RouterComponent extends Component {
                             component={Initial}
                         />
                         <Scene
-                            initial
+                            
                             key='auth_screen'
                             hideNavBar={true}
                             component={Auth}
