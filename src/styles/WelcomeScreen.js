@@ -66,6 +66,10 @@ const WelcomeScreenStyle = StyleSheet.create({
         fontSize: 18,
         color : '#000',
         fontWeight: 'bold'
+    },
+    justify : {
+        justifyContent :'center',
+        alignItems : 'center'
     }
 });
 
