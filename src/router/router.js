@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {Router,Stack, Scene, Actions} from 'react-native-router-flux';
+import Icon from 'react-native-vector-icons/Ionicons';
+import {TouchableOpacity} from 'react-native';
 
 import Initial from '../screens/InitialScreen';
 import Auth from '../screens/Auth';
@@ -18,6 +20,21 @@ import Step3 from '../component/Quotes/Step3';
 
 
 class RouterComponent extends Component {
+
+    renderRightButton = () => {
+        return (
+            <TouchableOpacity
+                style={{marginLeft: -20}}
+                onPress={() => Actions.welcomeScreen()}
+            >
+            <Icon 
+                name={'md-home'}
+                size={30}     
+            />
+            </TouchableOpacity>
+        )
+    }
+
     render () {
         return (
             <Router >
@@ -53,14 +70,21 @@ class RouterComponent extends Component {
                         <Scene 
                             key='invoiceScreen'
                             component={Invoice}
+                            rightButtonImage={require('../assets/home.png')}
+                            onRight={() => Actions.welcomeScreen()}
                         />
                         <Scene 
                             key='updateInfoScreen'
                             component={UpdateInfo}
+                            rightButtonImage={require('../assets/home.png')}
+                            onRight={() => Actions.welcomeScreen()}
+                           
                         />
                         <Scene 
                             key='trackJobScreen'
                             component={TrackJob}
+                            rightButtonImage={require('../assets/home.png')}
+                            onRight={() => Actions.welcomeScreen()}
                         />
                         <Scene 
                             key='step1Screen'
