@@ -27,6 +27,7 @@ class Step1 extends Component {
         return (
             <View style={[step1Style.container, {width: SCREEN_WIDTH}]}>
                 <View style={step1Style.header}>
+                    <Text style={step1Style.textStyle}>Instant Quotes</Text>
                     <Text style={step1Style.title}>Step 1</Text>
                     <Text style={step1Style.subTitle}>Moving Details</Text>
                 </View>
@@ -80,7 +81,7 @@ class Step1 extends Component {
                         <CustomButton
                             style={styles.customButton}
                             textStyle={styles.buttonText}
-                            onPress={() => Actions.welcomeScreen()}
+                            onPress={() => Actions.step2Screen()}
                         >
                             Next
                         </CustomButton>

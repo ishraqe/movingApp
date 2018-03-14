@@ -20,7 +20,7 @@ class WelcomeScreen extends  Component {
                         <View style={styles.options}>
                             <TouchableOpacity 
                                 style={[styles.optionsWrapper,styles.quoteBackgroundColor]}
-                                onPress={() => Actions.quoteScreen()}
+                                onPress={() => Actions.step1Screen()}
                             >
                                     <MaterialIcon
                                         name={'note-add'}

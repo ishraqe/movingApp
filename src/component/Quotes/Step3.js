@@ -13,6 +13,7 @@ class Step3 extends Component {
         return (
             <View style={[step1Style.container, {width: SCREEN_WIDTH}]}>
                 <View style={step1Style.header}>
+                    <Text style={step1Style.textStyle}>Instant Quotes</Text>
                     <Text style={step1Style.title}>Step 3</Text>
                     <Text style={step1Style.subTitle}>Final Step</Text>
                 </View>

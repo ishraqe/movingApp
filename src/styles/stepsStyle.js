@@ -25,8 +25,16 @@ export const step1Style = StyleSheet.create({
     inputContainer : {
         flex :3,
         justifyContent: 'center',
-        alignItems : 'center'
-    }
+        alignItems : 'center',
+        marginBottom: 20,
+        marginTop: 20
+    },
+    textStyle : {
+        marginBottom: 10,
+        fontSize : 20,
+        fontWeight: 'bold',
+        color: '#000'
+    },
 });
 
 export const step2Style = StyleSheet.create({
