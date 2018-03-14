@@ -14,11 +14,11 @@ class Initial extends Component {
     componentDidMount() {
         Animated.timing(this.state.animation, {
             toValue: 0,
-            duration: 1500
+            duration: 1000
         }).start(() =>  {
             setTimeout(() => {
                 Actions.auth_screen();
-            }, 1000);
+            }, 500);
         });
        
     }
