@@ -29,7 +29,7 @@ class Step3 extends Component {
                    <Text> or </Text>
                     
 
-                     <LinearGradient colors={[colors.gradientColor1, colors.gradientColor2]} style={[styles.buttonStyle, step3Style.buttonStyle]} >
+                     <LinearGradient colors={[colors.gray, colors.greyColor]} style={[styles.buttonStyle, step3Style.buttonStyle]} >
                         <CustomButton
                             style={styles.customButton}
                             textStyle={styles.buttonText}
